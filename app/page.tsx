@@ -86,7 +86,7 @@ export default function Home() {
       <section id="about" className="py-20 bg-[#012169]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center mb-12 text-[#fffff0]">
-            What is Silly Servos & FIRST Robotics?
+            About Us
           </h2>
           <div className="mx-auto max-w-4xl">
             <p className="text-lg text-[#fffff0] opacity-90 text-center">

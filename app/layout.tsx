@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Silly Servos - Robotics Team",
-  description: "Official website of Silly Servos Robotics Team - Building the future, one servo at a time",
+  title: "Silly Servos #24213",
+  description: "Official website of Silly Servos Robotics Team at Highland Park High School",
 };
 
 export default function RootLayout({
