@@ -184,7 +184,7 @@ of FIRST Robotics.
           </p>
           <div className="grid gap-10 md:grid-cols-2 max-w-5xl mx-auto">
             <figure className="overflow-hidden rounded-2xl border-2 border-[#fffff0] bg-[#012169]">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-4/3">
                 <Image
                   src="/images/robot1.jpeg"
                   alt="robot1"
@@ -198,7 +198,7 @@ of FIRST Robotics.
               </figcaption>
             </figure>
             <figure className="overflow-hidden rounded-2xl border-2 border-[#fffff0] bg-[#012169]">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-4/3">
                 <Image
                   src="/images/robot2.jpeg"
                   alt="robot2"
@@ -233,7 +233,7 @@ of FIRST Robotics.
           </h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#012169] mb-2">7+</div>
+              <div className="text-5xl font-bold text-[#012169] mb-2">8+</div>
               <p className="text-[#012169] opacity-80">Competitions</p>
             </div>
             <div className="text-center">
@@ -267,9 +267,23 @@ of FIRST Robotics.
           <p className="text-xl text-[#fffff0] opacity-80 mb-8">
             Interested in supporting future STEM innovators? We are always looking for passionate sponsors!
           </p>
-          <a href="" className="inline-block px-8 py-4 bg-[#fffff0] text-[#012169] rounded-lg font-semibold border-2 border-[#fffff0] transition-opacity hover:opacity-90">
-            View Sponsorship Packet
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="/sponsorship-packet"
+              className="inline-block px-8 py-4 bg-[#fffff0] text-[#012169] rounded-lg font-semibold border-2 border-[#fffff0] transition-opacity hover:opacity-90"
+            >
+              View Sponsorship Packet
+            </a>
+            <a
+              href="https://forms.gle/Sw8wA47GqVHhj76z8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-[#fffff0] px-8 py-4 font-semibold text-[#fffff0] transition-colors hover:bg-[#fffff0] hover:text-[#012169]"
+            >
+              Fill Out Sponsorship Form
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
       </section>
 
