@@ -27,6 +27,7 @@ export default function Home() {
               <a href="#about" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">About</a>
               <a href="#team" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Team</a>
               <a href="#robots" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Robots</a>
+              <a href="#award" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Awards</a>
               <a href="#achievements" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Achievements</a>
               <a href="#contact" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Contact</a>
             </div>
@@ -182,8 +183,8 @@ of FIRST Robotics.
           <p className="text-center text-[#fffff0] opacity-80 max-w-3xl mx-auto mb-12">
             From early prototypes to competition-ready builds, our robots showcase the engineering, programming, and teamwork that define Silly Servos.
           </p>
-          <div className="grid gap-10 md:grid-cols-2 max-w-5xl mx-auto">
-            <figure className="overflow-hidden rounded-2xl border-2 border-[#fffff0] bg-[#012169]">
+          <div className="flex flex-col md:flex-row flex-wrap justify-center gap-10 max-w-5xl mx-auto">
+            <figure className="overflow-hidden rounded-2xl border-2 border-[#fffff0] bg-[#012169] w-full md:w-[calc(50%-20px)]">
               <div className="relative aspect-4/3">
                 <Image
                   src="/images/robot1.jpeg"
@@ -194,10 +195,10 @@ of FIRST Robotics.
                 />
               </div>
               <figcaption className="p-4 text-center text-[#fffff0] opacity-80 text-sm sm:text-base">
-                Our first basic robot from the 2024-2025 season. This robot was simple, yet earned us 2nd place at the first league meet!
+                Our first basic robot from the 2024-2025 INTO THE DEEP season. This robot was simple, yet earned us 2nd place at the first league meet!
               </figcaption>
             </figure>
-            <figure className="overflow-hidden rounded-2xl border-2 border-[#fffff0] bg-[#012169]">
+            <figure className="overflow-hidden rounded-2xl border-2 border-[#fffff0] bg-[#012169] w-full md:w-[calc(50%-20px)]">
               <div className="relative aspect-4/3">
                 <Image
                   src="/images/robot2.jpeg"
@@ -208,7 +209,21 @@ of FIRST Robotics.
                 />
               </div>
               <figcaption className="p-4 text-center text-[#fffff0] opacity-80 text-sm sm:text-base">
-                The second iteration of our 2024-2025 robot, featuring improved mechanisms and an autonomous program using Road Runner.
+                The second iteration of our 2024-2025 INTO THE DEEP robot, featuring improved mechanisms and an autonomous program using Road Runner.
+              </figcaption>
+            </figure>
+            <figure className="overflow-hidden rounded-2xl border-2 border-[#fffff0] bg-[#012169] w-full md:w-[calc(50%-20px)]">
+              <div className="relative aspect-4/3">
+                <Image
+                  src="/images/DecodeRobot.png"
+                  alt="robot1"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 600px"
+                />
+              </div>
+              <figcaption className="p-4 text-center text-[#fffff0] opacity-80 text-sm sm:text-base">
+                This was our 2025-2026 DECODE robot. It was build out of mostly 3D printed parts. This was the first robot that we leveraged CAD to design. Our engineering process was much more rigorous and iterative.
               </figcaption>
             </figure>
           </div>
@@ -226,23 +241,49 @@ of FIRST Robotics.
         </div>
       </section>
 
-      <section id="achievements" className="py-20 bg-[#fffff0]">
+      <section id="award" className="py-20 bg-[#fffff0]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#012169]">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-6 text-[#012169]">
+              🏆 Think 1st Place Award
+            </h2>
+            <p className="text-xl text-[#012169] opacity-90 mb-8">
+              We are proud to announce that Silly Servos earned 1st Place Think Award at the 2025-2026 DECODE Illinois Suburban Northeast League Tournament.
+
+The Think Award recognizes teams that demonstrate excellence in engineering design, strategic analysis, and documented testing. This season, our robot was built entirely from a strategy-first mindset. Every mechanism was derived from game analysis, decisions were validated through controlled testing, and advanced control systems such as color-based indexing, magnet-based absolute homing, and trajectory-based path planning were implemented.
+
+Winning Think 1st reflects the countless hours our team invested in design reviews, subsystem architecture, control theory, and iterative improvement.
+
+We are incredibly proud of the engineering rigor our team demonstrated and excited to continue refining and competing at the next level.
+            </p>
+            <a
+              href="/portfolio"
+              className="inline-flex items-center justify-center gap-2 rounded-lg px-8 py-4 font-semibold bg-[#012169] text-[#fffff0] transition-opacity hover:opacity-90"
+            >
+              View Our Award-Winning Portfolio
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" className="py-20 bg-[#012169]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center mb-12 text-[#fffff0]">
             Our Achievements
           </h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#012169] mb-2">8+</div>
-              <p className="text-[#012169] opacity-80">Competitions</p>
+              <div className="text-5xl font-bold text-[#fffff0] mb-2">12+</div>
+              <p className="text-[#fffff0] opacity-80">Competitions</p>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#012169] mb-2">5</div>
-              <p className="text-[#012169] opacity-80">Robots Built</p>
+              <div className="text-5xl font-bold text-[#fffff0] mb-2">5</div>
+              <p className="text-[#fffff0] opacity-80">Robots Built</p>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#012169] mb-2">∞</div>
-              <p className="text-[#012169] opacity-80">Innovation</p>
+              <div className="text-5xl font-bold text-[#fffff0] mb-2">∞</div>
+              <p className="text-[#fffff0] opacity-80">Innovation</p>
             </div>
           </div>
           <div className="mt-10 text-center">
@@ -250,7 +291,7 @@ of FIRST Robotics.
               href="https://ftcscout.org/teams/24213"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-[#012169] px-6 py-3 font-semibold text-[#012169] transition-colors hover:bg-[#012169] hover:text-[#fffff0]"
+              className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-[#fffff0] px-6 py-3 font-semibold text-[#fffff0] transition-colors hover:bg-[#fffff0] hover:text-[#012169]"
             >
               View our detailed match stats on FTCScout
               <span aria-hidden="true">↗</span>
@@ -259,18 +300,18 @@ of FIRST Robotics.
         </div>
       </section>
 
-      <section id="contact" className="py-20 bg-[#012169]">
+      <section id="contact" className="py-20 bg-[#fffff0]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6 text-[#fffff0]">
+          <h2 className="text-4xl font-bold mb-6 text-[#012169]">
             Sponsorships
           </h2>
-          <p className="text-xl text-[#fffff0] opacity-80 mb-8">
+          <p className="text-xl text-[#012169] opacity-80 mb-8">
             Interested in supporting future STEM innovators? We are always looking for passionate sponsors!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="/sponsorship-packet"
-              className="inline-block px-8 py-4 bg-[#fffff0] text-[#012169] rounded-lg font-semibold border-2 border-[#fffff0] transition-opacity hover:opacity-90"
+              className="inline-block px-8 py-4 bg-[#012169] text-[#fffff0] rounded-lg font-semibold border-2 border-[#012169] transition-opacity hover:opacity-90"
             >
               View Sponsorship Packet
             </a>
@@ -278,7 +319,7 @@ of FIRST Robotics.
               href="https://forms.gle/Sw8wA47GqVHhj76z8"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-[#fffff0] px-8 py-4 font-semibold text-[#fffff0] transition-colors hover:bg-[#fffff0] hover:text-[#012169]"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-[#012169] px-8 py-4 font-semibold text-[#012169] transition-colors hover:bg-[#012169] hover:text-[#fffff0]"
             >
               Fill Out Sponsorship Form
               <span aria-hidden="true">↗</span>
@@ -302,7 +343,7 @@ of FIRST Robotics.
             <p className="text-lg font-semibold">Silly Servos</p>
           </div>
           <p className="text-[#012169] opacity-80">
-            © 2025 Silly Servos. All rights reserved.
+            © 2025-2026 Silly Servos. All rights reserved.
           </p>
           <p className="text-[#012169] opacity-60 text-sm mt-2">
             Building the future, one servo at a time

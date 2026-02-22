@@ -24,6 +24,7 @@ export default function SponsorshipPacketPage() {
               <a href="/#about" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">About</a>
               <a href="/#team" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Team</a>
               <a href="/#robots" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Robots</a>
+                            <a href="/#award" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Awards</a>
               <a href="/#achievements" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Achievements</a>
               <a href="/#contact" className="text-[#012169] hover:opacity-70 transition-opacity font-medium">Contact</a>
             </div>
@@ -75,7 +76,7 @@ export default function SponsorshipPacketPage() {
             </div>
             <p className="text-lg font-semibold">Silly Servos</p>
           </div>
-          <p className="text-[#012169] opacity-80">© 2025 Silly Servos. All rights reserved.</p>
+          <p className="text-[#012169] opacity-80">© 2025-2026 Silly Servos. All rights reserved.</p>
           <p className="text-[#012169] opacity-60 text-sm mt-2">Building the future, one servo at a time</p>
         </div>
       </footer>
